@@ -182,7 +182,7 @@ trap ExitMenu EXIT
 sudo chmod 666 /dev/uinput
 export SDL_GAMECONTROLLERCONFIG_FILE="/opt/inttools/gamecontrollerdb.txt"
 pgrep -f gptokeyb | sudo xargs kill -9 2>/dev/null
-/opt/inttools/gptokeyb -1 "Gif-Plymouth-Creator.sh" -c "/opt/inttools/keys.gptk" > /dev/null 2>&1 &
+/opt/inttools/gptokeyb -1 "Plymouth-Theme-Creator.sh" -c "/opt/inttools/keys.gptk" > /dev/null 2>&1 &
 
 # Lancer
 CheckDeps
