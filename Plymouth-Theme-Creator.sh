@@ -14,6 +14,9 @@ CURR_TTY="/dev/tty1"
 APP_NAME="Plymouth Theme Creator by Jason"
 THEME_DIR="/roms/tools/plymouthThemes"
 TARGET_DIR="/usr/share/plymouth/themes"
+
+read -r distro_date < /home/ark/.config/.VERSION
+
 export TERM=linux
 export XDG_RUNTIME_DIR="/run/user/$UID"
 
@@ -154,6 +157,7 @@ Comment=By Jason
 ModuleName=script
 
 [script]
+title=ArkOS 2.0 ($distro_date)(AeUX)  
 ImageDir=/usr/share/plymouth/themes/$name
 ScriptFile=/usr/share/plymouth/themes/$name/$name.script
 EOF
