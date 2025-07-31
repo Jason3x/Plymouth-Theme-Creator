@@ -4,6 +4,8 @@ Small script to create your own Plymouth themes from a GIF.
 
 The GIF name must not contain any blank spaces.
 
+Added distro version release date in emulationstation
+
 # Installation 1 sd
 - The GIF must be placed in the /roms/tools/plymouthThemes folder.
   
