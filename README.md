@@ -22,3 +22,6 @@ It is also possible to adjust the GIF speed (7 modes, from very slow to very fas
 # Requirements
 - An internet connection is required for the first launch.
 - Plymouth-cp must be installed.
+
+
+https://ko-fi.com/jason3x
